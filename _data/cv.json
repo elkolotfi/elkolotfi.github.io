@@ -1,0 +1,196 @@
+{
+  "general": {
+    "title": "Lotfi EL KORCHI|Ingénieur d'étude et de développement Java et Mainframe",
+    "description": "Diplômé d’une grande école d’ingénieur en génie informatique, je détiens une expérience professionnelle de plus de 6 ans, variée sur le plan fonctionnel et technique.<br>Rigoureux et organisé, je saurai faire preuve d’efficacité et de performance vis-à-vis des tâches qui me seront confiées. La nature de mon expérience professionnelle fait que je peux facilement m’intégrer à n’importe quel environnement dans une durée de temps assez courte.<br>Conscient que la réussite professionnelle du projet ne dépend pas uniquement des qualités techniques, j'ai su développer mon sens du relationnel et du travail en équipe."
+  },
+  "languages": [
+    {"name":  "Français", "level": "Courant"},
+    {"name": "Anglais", "level": "Courant"}
+  ],
+  "hobbies": ["Cinema", "Video Making", "Monopoly"],
+  "skill_groups": [
+    {
+      "title": "Web",
+      "skills": [
+        {"name": "Java 8", "level": 95},
+        {"name": "Spring", "level": 92},
+        {"name": "Hibernate", "level": 90},
+        {"name": "PHP 7", "level": 97},
+        {"name": "HTML", "level": 98},
+        {"name": "CSS", "level": 95},
+        {"name": "Javascript (es5)", "level": 94},
+        {"name": "Angular 7", "level": 65}
+      ]
+    },
+    {
+      "title": "Mainframe",
+      "skills": [
+        {"name": "COBOL", "level": 95},
+        {"name": "PACBASE", "level": 86},
+        {"name": "JCL", "level": 82},
+        {"name": "REXX", "level": 80},
+        {"name": "DB2", "level": 86},
+        {"name": "SPUFI", "level": 85},
+        {"name": "MVS (TSO)", "level": 80}
+      ]
+    },
+    {
+      "title": "Outils & IDE",
+      "skills": [
+        {"name": "Git", "level": 97},
+        {"name": "Maven", "level": 90},
+        {"name": "Eclipse", "level": 82},
+        {"name": "Intellij Idea", "level": 89}
+      ]
+    }
+  ],
+  "skill_others": ["Docker", "Symfony (PHP)", "DevOps", "TDD", "Python", "Shell"],
+  "education": [
+    {
+      "name":  "CS50 (Computer Science Mastery)",
+      "school": "Harvard University on edx.org",
+      "years": "2017",
+      "url": "https://courses.edx.org/certificates/4c95b3b3421b4cb4bb947e6d79def25e"
+    },
+    {
+      "name": "Ingénieur d’Etat (Génie Informatique)",
+      "school": "Ecole Mohammedia des Ingénieurs",
+      "years": "2009 - 2012"
+    },
+    {
+      "name": "Classes préparatoires aux grandes écoles d’ingénieurs (MPSI)",
+      "school": "Lycée technique de Mohammedia",
+      "years": "2007 - 2009"
+    },
+    {
+      "name": "Baccalauréat option sciences mathématiques A",
+      "school": "Lycée Al baroudi",
+      "years": "2007"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "EID (Strasbourg)",
+      "job": "Ingénieur Etude & Développement",
+      "time_frame": "De Septembre 2017 à Aujourd'hui (37 mois)",
+      "description": "Au sein du Domaine «IDE, Frameworks et Runtime », le projet « Outillage développement host » a pour objectif d’améliorer la productivité des développeurs Cobol et de faciliter la prise en compte de l’architecture d’entreprise au sein d’Euro Information.<br>Dans le cadre du projet \"Outillage et développement host\" ma mission consiste à améliorer la productivité des développeurs Cobol et faciliter la prise en compte de l'architecture au sein d'EID.",
+      "projects": [
+        {
+          "title":  "Refonte d'un outil de génération de modules Host (ZGEN)",
+          "description": "Le but de ce projet est de faire une refonte de l'outil déjà existant sur TSO (Mainframe - ZGEN) qui permet de générer des squelettes de programmes type. L'idée et de rendre accessible les mêmes fonctionnalités de l'outil sur l'IDE de développement IBM (RDZ – Eclipse RCP) et de rajouter plus de fonctionnalités."
+        },
+        {
+          "title": "Générateur de service applicatif",
+          "description": "Ce projet est une composante du précédent projet qui a été traité de manière séparé vu son volume et sa complexité. En effet, pour créer un service applicatif aujourd’hui, il faut passer par plusieurs outils Host et générer plusieurs modules sur différents outils. Avec ce générateur proposé sur la nouvelle version de ZGEN, l'utilisateur pourra réaliser cette tâche avec le moindre effort tout en minimisant les erreurs et automatisant les tâches qui ne nécessitent pas nécessairement l'intervention de l'utilisateur."
+        },
+        {
+          "title": "Outil de recherche Agate",
+          "description": "Lors du développement de l'outil ZGEN parmi les fonctionnalités que j'ai proposées : un outil de recherche Agate sous forme de fenêtre de dialogue. Cette fonctionnalité a été tellement appréciée par le comité de gestion des projets d'outillage COBOL qu'il a été demandé de le développer comme projet indépendant pouvant être intégré à plusieurs autres plugins déjà existant sur RDZ."
+        },
+        {
+          "title": "Type Cobol",
+          "description": "L'idée de typeCobol est de créer un surlangage de Cobol qui apporte plus de fonctionnalités et de facilité d'écriture à ce Langage Host."
+        }
+      ],
+      "skills": ["Java", "Cobol", "REXX", "Git", "TFS", "MVS", "DB2", "TSO", "Type-Cobol"]
+    },
+    {
+      "company": "EID (Dijon)",
+      "job": "Ingénieur Etude & Développement",
+      "time_frame": "De Janvier à Septembre 2017 (9 mois)",
+      "description": "Ma mission au sein d’EID  – Crédit Mutuel consiste à gérer des projets informatiques relatifs aux conditions et moyens de paiement des contrats assurances et plus précisément dans le cadre de l’équipe A430 (service Financier et Contentieux).",
+      "achievements": {
+        "tasks": [
+          "Etude et Analyse des besoins",
+          "Estimation des charges",
+          "Elaboration des cahiers de spécifications techniques et fonctionnelles",
+          "Développement en COBOL avec respects des différentes normes",
+          "Elaboration des tests unitaires et fonctionnels (QC)",
+          "Livraison des composants développés sur les différents environnements (Test, Qualification et Production)"
+        ]
+      },
+      "projects": [
+        {
+          "title":  "Intégration des VCS (Virements à communication structurée)",
+          "description": "Pour le compte du client PARTNERS en Belgique il est demandé d’adapter le générateur des communications structurées existant afin d’intégrer les nouveaux produits PARTNERS. Une mise à niveau est effectuée afin d’adapter les différents composants utilisant le générateur pour répondre à sa nouvelle structure."
+        },
+        {
+          "title": "Adaptation l’application de saisie des règlements TPE",
+          "description": "Lors de la saisie d’un règlement par TPE l’application conduit l’opération directement vers les contrats E/R. Dans le cadre du projet d’intégration des contrats de la nouvelle application ERMES, il est demandé d’adapter l’application de saisie des règlements TPE afin de router et bien intégrer les opérations sur le bon contrat."
+        },
+        {
+          "title": "Introduction d’un nouveau Moyen de paiement OVB",
+          "description": "L’intégration du nouveau client PARTNERS dans le groupe implique plusieurs adaptations à prévoir sur le système informatique du groupe. Parmi elles il y a l’introduction des Ordres de virements bancaires comme nouveau moyen de paiement utilisé par les clients Belges. Ce projet consiste donc à recenser et adapter les différents composants dont le fonctionnement dépend ou influe le mode de paiement utilisé pour un contrat d’assurance."
+        }
+      ],
+      "skills": ["COBOL", "Devbooster (C#)", "MVS", "DB2", "TSO", "File-Aid"]
+    },
+    {
+      "company": "I-BP (Banque populaire)",
+      "job": "Ingénieur Etude & Développement",
+      "time_frame": "De Juin 2016 à Janvier 2017 (6 mois)",
+      "description": "Participation au projet PPG OP3 (Moyens de Paiement – Concentrateur SEPA – GSP12190) sur ses 3 dernières itérations (Méthode AGILE)",
+      "achievements": {
+        "tasks": [
+          "Développements de programmes batch (réalisation intégrale de la chaine des CRS/CRI dans le cadre du projet d’intégration SEPA)",
+          "Recette unitaire des différents composants développés (FTU)",
+          "Développement d’un programme de test fonctionnel en PHP (test de non-régression)",
+          "Développement d’un programme de test fonctionnel en PHP (test de non-régression)",
+          "Participation lors des démonstrations d’itérations"
+        ]
+      },
+      "skills": ["PHP", "PACBASE", "COBOL","MVS", "DB2", "TSO", "File-Aid"]
+    },
+    {
+      "company": "BDSI (BNP-Paribas)",
+      "job": "Gestionnaire de projets",
+      "time_frame": "De Janvier 2013 à Juin 2016 (42 mois)",
+      "description": "Ma mission au sein de la BDSI consiste en la gestion et le développement des projets spécifiques de différentes banques appartenant au même groupe (BNP-Paribas)",
+      "achievements": {
+        "tasks": [
+          "Assistance de la MOA lors du recueil et cadrage du besoin",
+          "Animation et rédaction des rapports de réunions de cadrage auprès du client",
+          "Rédaction du dossier d’étude et des spécifications techniques et fonctionnelles",
+          "Suivi et/ou Elaboration de la phase de réalisation (développement PACBASE (COBOL), Scripts Shell avec les normes JCL, Conception et création de base de données sous GESTAB –outil interne au groupe-)",
+          "Mise en place et l’exécution d’un plan de recette technico-fonctionnel",
+          "Mise en production et déploiement de la solution avec une période de garantie qui varie entre 7 et 30 jours",
+          "Respect des normes CMMI for services (niveau 3)",
+          "Rédaction des différents comptes rendus et livrables",
+          "Etude des risques et anticipations des éventuels problèmes"
+        ]
+      },
+      "projects": [
+        {
+          "title":  "Centrale LCN",
+          "description": "Suite à une nouvelle réglementation, les incidents issus des effets de commerces doivent être déclarés à la banque centrale. Il faut aussi intégrer dans nos systèmes les déclarations de la banque centrale à ce sujet et qui proviennent des différentes autres banque. Le projet consiste donc à mettre en place une nouvelle centrale de déclaration spécifique aux LCN, permettant de répondre aux exigences réglementaires."
+        },
+        {
+          "title": "Convergence Afrique",
+          "description": "Lors de laDans le cadre de l’amélioration des services et la diminution des coûts IT du groupe. La DSI Afrique a proposé aux quatre banques africaines une opération de fusion qui permettra de rassembler l’ensemble des composants des 4 banques sur un même site. Ma contribution sur ce projet à consister en le recensement et l’adaptation de l’ensemble des programmes et des traitements relatifs au Reporting."
+        },
+        {
+          "title": "Relevés  annuels des frais",
+          "description": "Un projet réglementaire qui consiste en la déclaration de l’ensemble des frais et des extournes comptabilisés pour chaque client de la banque. Ce projet a eu lieu suite au projet de la convergence Afrique et a été, par conséquent, développé pour les quatre banques de manière totalement fluide et transparente, tout en prenant en compte les spécificités de chacune d’entre elles."
+        }
+      ],
+      "skills": ["Unix", "PACBASE", "COBOL", "GESTAB", "LOTUS"]
+    },
+    {
+      "company": "SOFRECOM (Orange Telecom)",
+      "job": "Projet de fin des Etudes",
+      "time_frame": "De Janvier 2012 à Septembre 2012 (9 mois)",
+      "description": "Afin d'exploiter les différentes données collectées (Appels, mails, SMS), SOFRECOM a élaboré une API d’analyse linguistique qui exploite ces données. Afin de permettre au personnel non qualifié en informatique d’utiliser cette bibliothèque, SOFRECOM a décidé d’interfacer son API.<br>Mon projet de fin d’études a donc consisté en la création de plusieurs plugins du RTC TOS (Talend Open Studio) et une application Web développé en Java EE. Ces applications ont pour but de donner accès à la bibliothèque grâce à des modules visuels plus intuitive et facile à manipuler.",
+      "achievements": {
+        "tasks": [
+          "Recueil du besoin auprès du client (Utilisateurs de TOS)",
+          "Rédaction du cahier de spécification technico-fonctionnelles",
+          "Développement de l’ensemble des programmes et composants (Web et Plugins)",
+          "Elaboration des tests unitaires",
+          "Test d’intégrations et de validations auprès des exploitants de la solution",
+          "Déploiement de la solution"
+        ]
+      },
+      "skills": ["Java", "Java EE", "Talend Open Studio", "HTML", "CSS", "Javascript"]
+    }
+  ]
+}
