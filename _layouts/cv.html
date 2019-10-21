@@ -63,7 +63,7 @@
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Missions réalisées</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
 
@@ -82,8 +82,13 @@
 											<p>{{experience.description}}</p>
 
 											{% if experience.projects %}
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Projets</h4>
-											<ul>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
+												Projets
+												<small class="float-right">
+													<a href="#" class="hidable-toggle"><i class="fas fa-eye"></i> Voir</a>
+												</small>
+											</h4>
+											<ul class="hidable">
 												{% for project in experience.projects %}
 												<li>
 													<h5>{{project.title}}</h5>
@@ -96,14 +101,14 @@
 											{% if experience.achievements %}
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
 											<p>{{experience.achievements.description}}</p>
-											<ul>
+											<ul class="hidable">
 												{% for task in experience.achievements.tasks %}
 												<li>{{task}}</li>
 												{% endfor %}
 											</ul>
 											{% endif %}
 
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Environnement Technique:</h4>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Environnement Technique</h4>
 											<ul class="list-inline">
 												{% for skill in experience.skills %}
 												<li class="list-inline-item"><span class="badge badge-primary badge-pill">{{skill}}</span></li>
@@ -121,7 +126,7 @@
 				    </div>
 				    <div class="col-lg-3">
 					    <section class="resume-section skills-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Compétences techniques</h2>
 						    <div class="resume-section-content">
 
 								{% for group in site.data.cv.skill_groups %}
@@ -231,7 +236,9 @@
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/xriley" target="_blank">Xiaoying Riley</a> for developers</small>
     </footer>
 
-    
+   <script type="text/javascript">
+	   document.querySelectorAll('')
+   </script>
 
 </body>
 </html> 
