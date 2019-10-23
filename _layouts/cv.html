@@ -248,46 +248,7 @@
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/xriley" target="_blank">Xiaoying Riley</a> for developers</small>
     </footer>
 
-   <script type="text/javascript">
-	   document.querySelectorAll('.hidable-toggle').forEach(e => {
-	   		e.addEventListener('click', ev => {
-	   			ev.preventDefault();
-				let h = e.parentElement.parentElement.nextElementSibling;
-				if (e.getElementsByTagName('svg').length > 0 && e.getElementsByTagName('span').length > 0) {
-					while (h != null && !h.classList.contains('hidable')) {
-						h = h.nextElementSibling;
-					}
-					if(h !== null){
-						let svg = e.getElementsByTagName('svg')[0];
-						let span = e.getElementsByTagName('span')[0];
-
-						h.classList.add('animated');
-						h.addEventListener('animationend', () => {
-							if(h.classList.contains('fadeOutUp'))	h.classList.add('d-none');
-						});
-
-						if (svg.classList.contains('fa-eye-slash')) { // hide it
-							svg.classList.remove('fa-eye-slash');
-							svg.classList.add('fa-eye');
-							span.textContent = 'Voir';
-							h.classList.remove('fadeInDown');
-							h.classList.add('fadeOutUp');
-							console.log('hide it')
-						} else if (svg.classList.contains('fa-eye')) { // show it
-							svg.classList.remove('fa-eye');
-							svg.classList.add('fa-eye-slash');
-							span.textContent = 'Cacher';
-							h.classList.remove('d-none', 'fadeOutUp');
-							h.classList.add('fadeInDown');
-							console.log('show it')
-						} else {
-							console.log('error');
-						}
-					}
-				}
-			})
-	   });
-   </script>
+   <script type="text/javascript" src="assets/js/hidable.js"></script>
 
 </body>
 </html> 
