@@ -13,14 +13,16 @@
     
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    
+
+	<!-- Animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <!-- FontAwesome JS-->
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="assets/css/style.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-3.css">
-
 
 </head> 
 
@@ -85,10 +87,13 @@
 											<h4 class="resume-timeline-item-desc-heading font-weight-bold">
 												Projets
 												<small class="float-right">
-													<a href="#" class="hidable-toggle"><i class="fas fa-eye"></i> Voir</a>
+													<a href="#" class="hidable-toggle">
+														<i class="fas fa-eye"></i>
+														<span>Voir</span>
+													</a>
 												</small>
 											</h4>
-											<ul class="hidable">
+											<ul class="hidable d-none">
 												{% for project in experience.projects %}
 												<li>
 													<h5>{{project.title}}</h5>
@@ -99,9 +104,16 @@
 											{% endif %}
 
 											{% if experience.achievements %}
-											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations</h4>
+											<h4 class="resume-timeline-item-desc-heading font-weight-bold">Réalisations
+												<small class="float-right">
+													<a href="#" class="hidable-toggle">
+														<i class="fas fa-eye"></i>
+														<span>Voir</span>
+													</a>
+												</small>
+											</h4>
 											<p>{{experience.achievements.description}}</p>
-											<ul class="hidable">
+											<ul class="hidable d-none">
 												{% for task in experience.achievements.tasks %}
 												<li>{{task}}</li>
 												{% endfor %}
@@ -237,7 +249,44 @@
     </footer>
 
    <script type="text/javascript">
-	   document.querySelectorAll('')
+	   document.querySelectorAll('.hidable-toggle').forEach(e => {
+	   		e.addEventListener('click', ev => {
+	   			ev.preventDefault();
+				let h = e.parentElement.parentElement.nextElementSibling;
+				if (e.getElementsByTagName('svg').length > 0 && e.getElementsByTagName('span').length > 0) {
+					while (h != null && !h.classList.contains('hidable')) {
+						h = h.nextElementSibling;
+					}
+					if(h !== null){
+						let svg = e.getElementsByTagName('svg')[0];
+						let span = e.getElementsByTagName('span')[0];
+
+						h.classList.add('animated');
+						h.addEventListener('animationend', () => {
+							if(h.classList.contains('fadeOutUp'))	h.classList.add('d-none');
+						});
+
+						if (svg.classList.contains('fa-eye-slash')) { // hide it
+							svg.classList.remove('fa-eye-slash');
+							svg.classList.add('fa-eye');
+							span.textContent = 'Voir';
+							h.classList.remove('fadeInDown');
+							h.classList.add('fadeOutUp');
+							console.log('hide it')
+						} else if (svg.classList.contains('fa-eye')) { // show it
+							svg.classList.remove('fa-eye');
+							svg.classList.add('fa-eye-slash');
+							span.textContent = 'Cacher';
+							h.classList.remove('d-none', 'fadeOutUp');
+							h.classList.add('fadeInDown');
+							console.log('show it')
+						} else {
+							console.log('error');
+						}
+					}
+				}
+			})
+	   });
    </script>
 
 </body>
