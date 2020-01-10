@@ -70,10 +70,27 @@
   ],
   "experiences": [
     {
+      "company": "PSA – (Customer Experience)",
+      "job": "Ingénieur Concepteur",
+      "time_frame": "De Janvier 2019 à Aujourd’hui (+1 an)",
+      "description": "Dans le cadre de la tribu « Customer Experience » je suis responsable de la gestion des projets d’évolution et de maintenance sur deux applications (Bureau métier et CCI)",
+      "projects": [
+        {
+          "title":  "Transfert des tickets vers Salesforce",
+          "description": "Dans le cadre de l’application Bureau métier, l’un des clients de PSA (Free2Move) souhaite transférer un certain type de ses tickets vers Salesforce afin qu’il puisse les traiter sur ce CRM. Il faut donc instaurer les bonnes règles de gestion et mettre en place une connexion sécurisé (JWT) vers l’Api Salesforce puis mettre en place l’action de transfert (transformation des « Incident » Oracle en « Case » Salesforce)"
+        },
+        {
+          "title": "Amélioration de la page de recherche de l’application CCI",
+          "description": "Les utilisateurs de l’application CCI ont souvent recoure à une page de recherche qui représente une sorte de point d’entré essentiel pour l’ensemble de l’application. Cette interface souffre de plusieurs problèmes parmi lesquels on peut citer : Une lenteur assez considérable au moment de l’initialisation de la page, manque de plusieurs critères de recherches, difficulté de navigation sur les résultats de recherches… Le but est donc d’améliorer l’expérience en comblant ces lacunes à travers une série de mini-projets."
+        }
+      ],
+      "skills": ["Java", "JAVA EE", "SPRING", "SPRING BATCH", "STRUTS", "HIBERNATE", "PHP", "Javascript", "HTML5", "CSS3", "Oracle Cloud Service", "Salesforce API", "SVN", "GIT"]
+    },
+    {
       "company": "EID (Strasbourg)",
       "job": "Ingénieur Etude & Développement",
-      "time_frame": "De Septembre 2017 à Aujourd'hui (37 mois)",
-      "description": "Au sein du Domaine «IDE, Frameworks et Runtime », le projet « Outillage développement host » a pour objectif d’améliorer la productivité des développeurs Cobol et de faciliter la prise en compte de l’architecture d’entreprise au sein d’Euro Information.<br>Dans le cadre du projet \"Outillage et développement host\" ma mission consiste à améliorer la productivité des développeurs Cobol et faciliter la prise en compte de l'architecture au sein d'EID.",
+      "time_frame": "De Septembre 2017 à Janvier 2019 (20 mois)",
+      "description": "Au sein du Domaine «IDE, Frameworks et Runtime », le projet « Outillage développement host » a pour objectif d’améliorer la productivité des développeurs Cobol et de faciliter la prise en compte de l’architecture d’entreprise au sein d’Euro Information.<br>Dans le cadre du projet \"Outillage et développement host\" ma mission consiste à améliorer la productivité des développeurs Cobol et faciliter la prise en compte de l'architecture au sein d'EID. La nature des projets gérés dans le cadre de cette mission fait que nous avons opté pour une approche agile (méthode SCRUM)",
       "projects": [
         {
           "title":  "Refonte d'un outil de génération de modules Host (ZGEN)",
@@ -129,7 +146,7 @@
       "company": "I-BP (Banque populaire)",
       "job": "Ingénieur Etude & Développement",
       "time_frame": "De Juin 2016 à Janvier 2017 (6 mois)",
-      "description": "Participation au projet PPG OP3 (Moyens de Paiement – Concentrateur SEPA – GSP12190) sur ses 3 dernières itérations (Méthode AGILE)",
+      "description": "Participation au projet PPG OP3 (Moyens de Paiement – Concentrateur SEPA – GSP12190) sur ses 3 dernières itérations (Méthode SCRUM -Approches AGILE-)",
       "achievements": {
         "tasks": [
           "Développements de programmes batch (réalisation intégrale de la chaine des CRS/CRI dans le cadre du projet d’intégration SEPA)",
