@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
     <title>{{site.data.cv.general.title}}</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -19,7 +19,7 @@
     <meta name="description" content="{{site.data.cv.general.description}}">
     <meta name="author" content="{{site.data.personal.info.full_name}}">
     <link rel="shortcut icon" href="assets/favicon.ico">
-    
+
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
@@ -30,12 +30,12 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="assets/css/style.css">
-    <!-- Theme CSS -->  
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-3.css">
 
-</head> 
+</head>
 
-<body>	
+<body>
 
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
@@ -62,7 +62,7 @@
 								<li><a href="{{site.data.personal.social.website.url}}"><span class="fa-container text-center mr-2"><i class="fas fa-globe"></i></span>{{site.data.personal.social.website.title}}</a></li>
 						    </ul>
 					    </div><!--//secondary-info-->
-					    
+
 				    </div><!--//media-body-->
 			    </div><!--//media-->
 		    </header>
@@ -70,7 +70,7 @@
 			    <section class="resume-section summary-section mb-5">
 				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Présentation</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">{{site.data.cv.general.description}}</p>
+					    <p class="mb-0 text-justify">{{site.data.cv.general.description}}</p>
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
@@ -108,7 +108,7 @@
 												{% for project in experience.projects %}
 												<li>
 													<h5>{{project.title}}</h5>
-													<p>{{project.description}}</p>
+													<p class="text-justify">{{project.description}}</p>
 												</li>
 												{% endfor %}
 											</ul>
@@ -141,9 +141,9 @@
 
 									</article>
 									{% endfor %}
-								    
+
 							    </div><!--//resume-timeline-->
-							    
+
 						    </div>
 					    </section><!--//experience-section-->
 				    </div>
@@ -244,16 +244,16 @@
 						    </div>
 					    </section><!--//interests-section-->
 						{% endif %}
-					    
+
 				    </div>
 			    </div><!--//row-->
 		    </div><!--//resume-body-->
-		    
-		    
-	    </div>
-    </article>  
 
-    
+
+	    </div>
+    </article>
+
+
     <footer class="footer text-center pt-2 pb-5">
 	     <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://github.com/xriley" target="_blank">Xiaoying Riley</a> for developers</small>
@@ -262,5 +262,5 @@
    <script type="text/javascript" src="assets/js/hidable.js"></script>
 
 </body>
-</html> 
+</html>
 
