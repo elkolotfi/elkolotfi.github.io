@@ -1,7 +1,7 @@
 {
   "general": {
     "title": "Lotfi EL KORCHI | Ingénieur Conception & Développement Sénior",
-    "description": "Diplômé d’une grande école d’ingénieur en génie informatique, Je détiens une expérience professionnelle de plus de 7 ans, très variée sur le plan fonctionnel et technique.<br>Rigoureux et organisé, je saurai faire preuve d’efficacité et de performance vis-à-vis des tâches qui me seront confiées. La nature de mon expérience professionnelle fait que je peux facilement m’intégrer à n’importe quel environnement dans une durée de temps assez courte.<br>Conscient que la réussite professionnelle d’un projet ne dépend pas uniquement des qualités techniques, j’ai su développer mon sens du relationnel et du travail en équipe.<br><br>Aptitudes professionnelles :<br>Esprit d’analyse et d'équipe, souple aux changements, autonome, organisé, sérieux et curieux.<br>"
+    "description": "Diplômé d’une grande école d’ingénieur en génie informatique, Je détiens une expérience professionnelle de plus de 7 ans.<br>Rigoureux et organisé, je saurai faire preuve d’efficacité et de performance vis-à-vis des tâches qui me seront confiées. La nature de mon expérience professionnelle fait que je peux facilement m’intégrer à n’importe quel environnement dans une durée de temps assez courte.<br>Conscient que la réussite professionnelle d’un projet ne dépend pas uniquement des qualités techniques, j’ai su développer mon sens du relationnel et du travail en équipe.<br><br>Aptitudes professionnelles :<br>Esprit d’analyse et d'équipe, souple aux changements, autonome, organisé, sérieux et curieux.<br>"
   },
   "languages": [
     {"name":  "Français", "level": "Courant"},
@@ -23,18 +23,6 @@
       ]
     },
     {
-      "title": "Mainframe",
-      "skills": [
-        {"name": "COBOL", "level": 95},
-        {"name": "PACBASE", "level": 86},
-        {"name": "JCL", "level": 82},
-        {"name": "REXX", "level": 80},
-        {"name": "DB2", "level": 86},
-        {"name": "SPUFI", "level": 85},
-        {"name": "MVS (TSO)", "level": 80}
-      ]
-    },
-    {
       "title": "Outils & IDE",
       "skills": [
         {"name": "Git", "level": 97},
@@ -46,6 +34,12 @@
   ],
   "skill_others": ["Docker", "Symfony (PHP)", "DevOps", "TDD", "Python", "Shell"],
   "education": [
+    {
+      "name":  "Professional Scrum Master",
+      "school": "scrum.org",
+      "years": "2020",
+      "url": "https://www.scrum.org/certificates/542201"
+    },
     {
       "name":  "CS50 (Computer Science Mastery)",
       "school": "Harvard University on edx.org",
@@ -72,119 +66,33 @@
     {
       "company": "PSA – (Customer Experience)",
       "job": "Ingénieur Concepteur",
-      "time_frame": "De Janvier 2019 à Aujourd’hui (+18 mois)",
+      "time_frame": "De Juillet 2018 à Aujourd’hui (2 ans)",
       "description": "Dans le cadre de la tribu « Customer Experience » je suis responsable de divers projets en tant qu’Ingénieur conception et développement sur, principalement, deux applications (Bureau métier et CCI)",
       "projects": [
-        {
-          "title":  "Transfert des tickets vers Salesforce",
-          "description": "Dans le cadre de l’application Bureau métier, l’un des clients de PSA (Free2Move) souhaite transférer un certain type de ses tickets vers Salesforce afin qu’il puisse les traiter sur ce CRM. Il faut donc instaurer les bonnes règles de gestion et mettre en place une connexion sécurisé (JWT) vers l’Api Salesforce puis mettre en place l’action de transfert (transformation des « Incident » Oracle en « Case » Salesforce)"
-        },
-        {
-          "title": "Refonte de l’architecture des processus personnalisés",
-          "description": "Pour rajouter des traitements spécifiques aux modules standards du CRM Oracle les développeurs disposent d’un modèle de processus personnalisé qui leurs permettent d’uploader un script PHP et conditionner son exécution depuis le gestionnaire des règles d’oracle. Le souci avec cette approche est que le workflow n’est pas très performant : il faut modifier le fichier localement, l’uploader, déployer puis tester.<br>J’ai donc proposé une nouvelle architecture qui s’appuie sur un dispatcher responsable de l’appel du traitement correspondant situé sur le serveur. Il suffit donc d’uploader le traitement appelant le dispatcher et déployer une seule fois puis modifier le module PHP directement sur le serveur.<br><br>Ce changement a eu un impact décisif sur le projet de transfert des tickets vers Salesforce grâce à :<br>- L’amélioration du processus du développement<br>- La possibilité d’utiliser la programmation orientée objet ainsi que quelques principes de la programmation SOLID<br>- La possibilité d’utiliser des bibliothèques tierces<br>- La mise en place des tests automatisés<br>"
-        },
-        {
-          "title": "Gestion de l’évolution de l’application CCI",
-          "description": "CCI est une application intranet qui a pour but d’assister les agents du centre de la gestion des recouvrements des contrats de financement PSA. <br>Ma mission est de gérer l’évolution de cette application à travers différents projets qui visent :<br>- La correction de bugs sur différentes parties de l’application.<br>- Amélioration de la performance, notamment pour la recherche des contrats, qui est une fonctionnalité incontournable de l’outil<br>- Correction des différentes failles de sécurités relevés lors des différents audits<br>- Amélioration de la qualité du code en répondant aux exigences de SONAR<br>"
-        },
-        {
-          "title": "Migration du CMS Typo3",
-          "description": "L’application EWR utilise un portail basé sur le CMS Typo3 dans sa version 6.2 qui fait de la version 5 de PHP. Il n’y a plus de support pour ces versions aujourd’hui. Par conséquent, il faut considérer une mise à jour du CMS et du PHP vers des versions LTS.<br>Mon rôle sur ce projet est de réaliser l’étude qui permet de mettre en place l’opération de migration tout en gardant toutes les fonctionnalités de l’application (connexions LDAP, système de templating…)<br>"
-        }
       ],
-      "skills": ["Java", "JAVA EE", "Sring", "Spring Boot", "SPRING BATCH", "STRUTS", "HIBERNATE", "PHP", "Javascript", "HTML5", "CSS3", "Oracle Cloud Service", "Salesforce API", "SVN", "GIT", "JIRA"]
+      "skills": ["Java", "JAVA EE", "Spring", "Spring Boot", "SPRING BATCH", "STRUTS", "HIBERNATE", "PHP", "Javascript", "HTML5", "JQuery", "Oracle Cloud Service", "Salesforce API", "SVN", "GIT", "JIRA"]
     },
     {
       "company": "EID (Strasbourg)",
       "job": "Ingénieur Etude & Développement",
-      "time_frame": "De Juin 2016 à Janvier 2019 (31 mois)",
+      "time_frame": "De Juin 2016 à Juillet 2018 (2 ans)",
       "description": "Descriptif de la mission : Au sein du Domaine «IDE, Frameworks et Runtime », le projet « Outillage développement host » a pour objectif d’améliorer la productivité des développeurs Cobol et de faciliter la prise en compte de l’architecture d’entreprise au sein d’Euro Information.<br>La nature des projets gérés dans le cadre de cette mission fait que nous avons opté pour une approche agile (méthode SCRUM).<br>",
-      "achievements": {
-        "tasks": [
-          "Etude et Analyse des besoins",
-          "Estimation des charges",
-          "Elaboration des cahiers de spécifications techniques et fonctionnelles",
-          "Développement Web (Java 8, Spring boot, Spring security, Angular)",
-          "Développement Eclipse (Java 8, SWT et JFACES)",
-          "Développement en COBOL avec respects des différentes normes",
-          "Analyse et conception des solutions pour résoudre les problèmes liés à la productivité des développeurs et aux performances systèmes",
-          "Elaboration des tests unitaires et fonctionnels (QC)",
-          "Livraison des composants développés sur les différents environnements (Test, Qualification et Production)"
-        ]
-      },
       "projects": [
-        {
-          "title":  "Refonte d'un outil de génération de modules Host (ZGEN)",
-          "description": "Le but de ce projet est de faire une refonte de l'outil déjà existant sur TSO (Mainframe - ZGEN) qui permet de générer des squelettes de programmes type. L'idée et de rendre accessible les mêmes fonctionnalités de l'outil sur l'IDE de développement IBM (RDZ – Eclipse RCP) et de rajouter plus de fonctionnalités"
-        },
-        {
-          "title": "Générateur de service applicatif",
-          "description": "Ce projet est une composante du précédent projet qui a été traité de manière séparé vu son volume et sa complexité. En effet, pour créer un service applicatif aujourd’hui, il faut passer par plusieurs outils Host et générer plusieurs modules sur différents outils. Avec ce générateur proposé sur la nouvelle version de ZGEN, l'utilisateur pourra réaliser cette tâche avec le moindre effort tout en minimisant les erreurs et automatisant les tâches qui ne nécessitent pas nécessairement l'intervention de l'utilisateur."
-        },
-        {
-          "title": "Outil de recherche Agate",
-          "description": "Lors du développement de l'outil ZGEN parmi les fonctionnalités que j'ai proposées : un outil de recherche Agate sous forme de fenêtre de dialogue. Cette fonctionnalité a été tellement appréciée par le comité de gestion des projets d'outillage COBOL qu'il a été demandé de le développer comme projet indépendant pouvant être intégré à plusieurs autres plugins déjà existant sur RDZ."
-        },
-        {
-          "title": "Gestionnaire de modules COBOL",
-          "description": "Mise en place d’une application Web (Spring boot + angular) afin de gérer la réservation et la recherche des modules COBOL utilisé par les développeurs. Cette application prend en compte les différents aspects de l’environnement EID comme l’authentification LDAP et la gestion autorisations. Pour de meilleure performance nous avons mis en place plusieurs cache (local Storage côté client et Redis coté serveur)"
-        },
-        {
-          "title": "Elaboration d’une architecture distribuée",
-          "description": "Elaboration d’une architecture distribuée permettant la répartition des différentes applications Mainframe sous forme de micro-service. Ceci facilite l’appel de ces services depuis différents contexte (appel sous forme d’une API REST avec une gestion de sécurité plus transparente)"
-        }
       ],
-      "skills": ["Java 8", "Spring Boot", "Spring Security", "Hibernate", "Angular", "Cobol", "REXX", "Git", "TFS", "MVS", "DB2", "TSO", "MongoDB", "Redis"]
+      "skills": ["Java 8", "Spring Boot", "Spring Security", "Hibernate", "Angular", "Git", "TFS"]
     },
     {
       "company": "BDSI (BNP-Paribas)",
       "job": "Gestionnaire de projets",
-      "time_frame": "De Janvier 2013 à Juin 2016 (42 mois)",
+      "time_frame": "De Janvier 2013 à Juin 2016 (3 ans)",
       "description": "Ma mission au sein de la BDSI consiste en la gestion et le développement des projets spécifiques de différentes banques appartenant au même groupe (BNP-Paribas)",
-      "achievements": {
-        "tasks": [
-          "Assistance de la MOA lors du recueil et cadrage du besoin",
-          "Animation et rédaction des rapports de réunions de cadrage auprès du client",
-          "Rédaction du dossier d’étude et des spécifications techniques et fonctionnelles",
-          "Suivi et/ou Elaboration de la phase de réalisation (développement PACBASE (COBOL), Scripts Shell avec les normes JCL, Conception et création de base de données sous GESTAB –outil interne au groupe-)",
-          "Mise en place et l’exécution d’un plan de recette technico-fonctionnel",
-          "Mise en production et déploiement de la solution avec une période de garantie qui varie entre 7 et 30 jours",
-          "Respect des normes CMMI for services (niveau 3)",
-          "Rédaction des différents comptes rendus et livrables",
-          "Etude des risques et anticipations des éventuels problèmes"
-        ]
-      },
-      "projects": [
-        {
-          "title":  "Centrale LCN",
-          "description": "Suite à une nouvelle réglementation, les incidents issus des effets de commerces doivent être déclarés à la banque centrale. Il faut aussi intégrer dans nos systèmes les déclarations de la banque centrale à ce sujet et qui proviennent des différentes autres banque. Le projet consiste donc à mettre en place une nouvelle centrale de déclaration spécifique aux LCN, permettant de répondre aux exigences réglementaires."
-        },
-        {
-          "title": "Convergence Afrique",
-          "description": "Lors de laDans le cadre de l’amélioration des services et la diminution des coûts IT du groupe. La DSI Afrique a proposé aux quatre banques africaines une opération de fusion qui permettra de rassembler l’ensemble des composants des 4 banques sur un même site. Ma contribution sur ce projet à consister en le recensement et l’adaptation de l’ensemble des programmes et des traitements relatifs au Reporting."
-        },
-        {
-          "title": "Relevés  annuels des frais",
-          "description": "Un projet réglementaire qui consiste en la déclaration de l’ensemble des frais et des extournes comptabilisés pour chaque client de la banque. Ce projet a eu lieu suite au projet de la convergence Afrique et a été, par conséquent, développé pour les quatre banques de manière totalement fluide et transparente, tout en prenant en compte les spécificités de chacune d’entre elles."
-        }
-      ],
-      "skills": ["Unix", "PACBASE", "COBOL", "GESTAB", "LOTUS"]
+      "skills": ["Java", "Spring", "Hibernate", "Javascript", "JQuery", "HTML5", "CSS3"]
     },
     {
       "company": "SOFRECOM (Orange Telecom)",
       "job": "Projet de fin des Etudes",
       "time_frame": "De Janvier 2012 à Septembre 2012 (9 mois)",
       "description": "Afin d'exploiter les différentes données collectées (Appels, mails, SMS), SOFRECOM a élaboré une API d’analyse linguistique qui exploite ces données. Afin de permettre au personnel non qualifié en informatique d’utiliser cette bibliothèque, SOFRECOM a décidé d’interfacer son API.<br>Mon projet de fin d’études a donc consisté en la création de plusieurs plugins du RTC TOS (Talend Open Studio) et une application Web développé en Java EE. Ces applications ont pour but de donner accès à la bibliothèque grâce à des modules visuels plus intuitive et facile à manipuler.",
-      "achievements": {
-        "tasks": [
-          "Recueil du besoin auprès du client (Utilisateurs de TOS)",
-          "Rédaction du cahier de spécification technico-fonctionnelles",
-          "Développement de l’ensemble des programmes et composants (Web et Plugins)",
-          "Elaboration des tests unitaires",
-          "Test d’intégrations et de validations auprès des exploitants de la solution",
-          "Déploiement de la solution"
-        ]
-      },
       "skills": ["Java", "Java EE", "Talend Open Studio", "HTML", "CSS", "Javascript"]
     }
   ]
