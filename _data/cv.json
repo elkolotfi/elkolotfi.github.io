@@ -15,11 +15,11 @@
         {"name": "Java 8", "level": 95},
         {"name": "Spring", "level": 92},
         {"name": "Hibernate", "level": 90},
-        {"name": "PHP 7", "level": 97},
-        {"name": "HTML", "level": 98},
-        {"name": "CSS", "level": 95},
+        {"name": "Struts", "level": 97},
+        {"name": "HTML5", "level": 98},
+        {"name": "CSS3", "level": 95},
         {"name": "Javascript (es5)", "level": 94},
-        {"name": "Angular 7", "level": 65}
+        {"name": "Angular 8", "level": 85}
       ]
     },
     {
