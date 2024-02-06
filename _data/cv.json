@@ -1,8 +1,8 @@
 {
   "general": {
     "title": "Lotfi EL KORCHI | Senior Fullstack Engineer",
-    "description": "Ingénieur Full Stack Senior avec plus de 11 ans d'expérience à travers divers domaines, ce qui a renforcé ma polyvalence tant sur les aspects techniques que fonctionnels.<br>
-J'ai cultivé un équilibre entre compétences techniques et qualités humaines, reconnaissant que le succès professionnel dépend autant de l'expertise que du relationnel et du travail d'équipe."
+    "description": "Ingénieur Full Stack Senior avec plus de 11 ans d'expérience à travers divers domaines, ce qui a renforcé ma polyvalence tant sur les aspects techniques que fonctionnels.<br/>
+    J'ai cultivé un équilibre entre compétences techniques et qualités humaines, reconnaissant que le succès professionnel dépend autant de l'expertise que du relationnel et du travail d'équipe."
   },
   "languages": [
     {"name":  "Français", "level": "Courant"},
@@ -13,14 +13,11 @@ J'ai cultivé un équilibre entre compétences techniques et qualités humaines,
     {
       "title": "Web",
       "skills": [
-        {"name": "Java 8", "level": 95},
-        {"name": "Spring", "level": 92},
-        {"name": "Hibernate", "level": 90},
-        {"name": "Struts", "level": 97},
-        {"name": "HTML5", "level": 98},
-        {"name": "CSS3", "level": 95},
-        {"name": "Javascript (es5)", "level": 94},
-        {"name": "Angular 8", "level": 85}
+        {"name": "Javascript", "level": 89},
+        {"name": "Typescript", "level": 90},
+        {"name": "Java", "level": 88},
+        {"name": "HTML5", "level": 95},
+        {"name": "CSS3", "level": 82}
       ]
     },
     {
@@ -65,36 +62,40 @@ J'ai cultivé un équilibre entre compétences techniques et qualités humaines,
   ],
   "experiences": [
     {
-      "company": "PSA – (Customer Experience)",
-      "job": "Ingénieur Concepteur",
-      "time_frame": "De Juillet 2018 à Aujourd’hui (2 ans)",
-      "description": "Dans le cadre de la tribu « Customer Experience » je suis responsable de divers projets en tant qu’Ingénieur conception et développement sur, principalement, deux applications (Bureau métier et CCI)",
-      "projects": [
-      ],
-      "skills": ["Java", "JAVA EE", "Spring", "Spring Boot", "SPRING BATCH", "STRUTS", "HIBERNATE", "Javascript", "HTML5", "JQuery", "Oracle Cloud Service", "Salesforce API", "SVN", "GIT", "JIRA"]
+      "company": "Livi/Kry",
+      "job": "Ingénieur Full Stack",
+      "time_frame": "De Décembre 2021 à Aujourd'hui",
+      "description": "Mon rôle, au sein de l’équipe B2B, en tant qu’Ingénieur full stack et tech lead est de proposer et réaliser des solutions qui permettent à LIVI de nouer des relations avec d’autres partenaires du monde de la santé"
     },
     {
-      "company": "EID (Strasbourg)",
+      "company": "La poste Groupe",
       "job": "Ingénieur Etude & Développement",
-      "time_frame": "De Juin 2016 à Juillet 2018 (2 ans)",
-      "description": "Descriptif de la mission : Au sein du Domaine «IDE, Frameworks et Runtime », le projet « Outillage développement host » a pour objectif d’améliorer la productivité des développeurs Cobol et de faciliter la prise en compte de l’architecture d’entreprise au sein d’Euro Information.<br>La nature des projets gérés dans le cadre de cette mission fait que nous avons opté pour une approche agile (méthode SCRUM).<br>",
-      "projects": [
-      ],
-      "skills": ["Java 8", "Spring Boot", "Spring Security", "Hibernate", "Angular", "Git", "TFS"]
+      "time_frame": "De Novembre 2020 à Décembre 2021",
+      "description": "Ma principale mission est de mettre en place un système de tests d’intégration permettant d’assurer la fiabilité de l’api, tout en participant à l’implémentation des évolutions nécessaires au sein du SI."
+    },
+    {
+      "company": "AXA",
+      "job": "Ingénieur Etude & Développement",
+      "time_frame": "De Avril 2018 à Novembre 2020",
+      "description": "Responsable de l’analyse et de la réalisation des développements au sein de l’équipe DOC prévoyance, dont le but est d’améliorer l’expérience utilisateur des agents d’ADIS pour gérer les contrats de prévoyance"
+    },
+    {
+      "company": "Groupe PSA",
+      "job": "Ingénieur Etude & Développement",
+      "time_frame": "De Juin 2016 à Avril 2018 (2 ans)",
+      "description": "Dans le cadre de la tribu « Customer Experience » je suis responsable du bon fonctionnement et de l’évolution de deux applications (CCI et Bureau métier)"
     },
     {
       "company": "BDSI (BNP-Paribas)",
       "job": "Gestionnaire de projets",
       "time_frame": "De Janvier 2013 à Juin 2016 (3 ans)",
-      "description": "Ma mission au sein de la BDSI consiste en la gestion et le développement des projets spécifiques de différentes banques appartenant au même groupe (BNP-Paribas)",
-      "skills": ["Java", "Spring", "Hibernate", "Javascript", "JQuery", "HTML5", "CSS3"]
+      "description": "Ma mission au sein de la BDSI consiste en la gestion et le développement des projets spécifiques de différentes banques appartenant au même groupe (BNP-Paribas)"
     },
     {
       "company": "SOFRECOM (Orange Telecom)",
       "job": "Projet de fin des Etudes",
       "time_frame": "De Janvier 2012 à Septembre 2012 (9 mois)",
-      "description": "Afin d'exploiter les différentes données collectées (Appels, mails, SMS), SOFRECOM a élaboré une API d’analyse linguistique qui exploite ces données. Afin de permettre au personnel non qualifié en informatique d’utiliser cette bibliothèque, SOFRECOM a décidé d’interfacer son API.<br>Mon projet de fin d’études a donc consisté en la création de plusieurs plugins du RTC TOS (Talend Open Studio) et une application Web développé en Java EE. Ces applications ont pour but de donner accès à la bibliothèque grâce à des modules visuels plus intuitive et facile à manipuler.",
-      "skills": ["Java", "Java EE", "Talend Open Studio", "HTML", "CSS", "Javascript"]
+      "description": "Afin d'exploiter les différentes données collectées (Appels, mails, SMS), SOFRECOM a élaboré une API d’analyse linguistique qui exploite ces données. Afin de permettre au personnel non qualifié en informatique d’utiliser cette bibliothèque, SOFRECOM a décidé d’interfacer son API.<br>Mon projet de fin d’études a donc consisté en la création de plusieurs plugins du RTC TOS (Talend Open Studio) et une application Web développé en Java EE. Ces applications ont pour but de donner accès à la bibliothèque grâce à des modules visuels plus intuitive et facile à manipuler."
     }
   ]
 }
