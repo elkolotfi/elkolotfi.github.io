@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="---??| BEIN SPORT |??---" tvg-logo="http://one-iptv.com/imageslogo/pu_beinsportsnews.png" group-title="BEIN SPORTS MENA",---??| BEIN SPORT |??---
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/22460.ts
+#EXTINF:-1 tvg-id="" tvg-name="|.AR.| BEIN SPORTS 2 MAX FHD" tvg-logo="http://mxcccam.com/picons/beINSport.ca.png" group-title="BEIN SPORTS MENA",|.AR.| BEIN SPORTS 2 MAX FHD
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/132960.ts
+#EXTINF:-1 tvg-id="" tvg-name="|.AR.| ARRIADIA TNT" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arridia.png" group-title="ARABIC MAROC",|.AR.| ARRIADIA TNT
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/132252.ts
+#EXTINF:-1 tvg-id="Arryadia.ma" tvg-name="|.AR.| ARRIADIA HD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arridia.png" group-title="ARABIC MAROC",|.AR.| ARRIADIA HD
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/30520.ts
+#EXTINF:-1 tvg-id="Arryadia.ma" tvg-name="|.AR.| ARRIADIA FHD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arridia.png" group-title="ARABIC MAROC",|.AR.| ARRIADIA FHD
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/15769.ts
+#EXTINF:-1 tvg-id="Arryadia.ma" tvg-name="|.AR.| ARRIADIA HEVC" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arridia.png" group-title="ARABIC MAROC",|.AR.| ARRIADIA HEVC
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/92459.ts
+#EXTINF:-1 tvg-id="" tvg-name="|.AR.| ARRABIA" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arabia.png" group-title="ARABIC MAROC",|.AR.| ARRABIA
+http://pro.tvxvip.com:25443/live/VYvljgZC3YM/u9mcAilLRY/15770.ts
