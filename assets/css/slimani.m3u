@@ -1,12 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="AlAoula.ma" tvg-name="|.AR.RP| AL AOULA HD" tvg-logo="http://one-iptv.com/imageslogo/AlAoula.ma.png" group-title="ARABIC MAROC",|.AR.RP| AL AOULA HD
 http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/15772.ts
+#EXTINF:-1 tvg-id="Assadissa.ma" tvg-name="|.AR.| ASSADISSA" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/sadissa.png" group-title="ARABIC MAROC",|.AR.| ASSADISSA
+http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/15768.ts
+#EXTINF:-1 tvg-id="Assadissa.ma" tvg-name="|.AR.| ASSADISSA HD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/sadissa.png" group-title="ARABIC MAROC",|.AR.| ASSADISSA HD
+http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/30521.ts
+#EXTINF:-1 tvg-id="Assadissa.ma" tvg-name="|.AR.| ASSADISSA HEVC" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/sadissa.png" group-title="ARABIC MAROC",|.AR.| ASSADISSA HEVC
+http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/92460.ts
 #EXTINF:-1 tvg-id="2M.ma" tvg-name="|.AR.| 2M HD" tvg-logo="http://one-iptv.com/imageslogo/2M.ma.png" group-title="ARABIC MAROC",|.AR.| 2M HD
 http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/30524.ts
 #EXTINF:-1 tvg-id="01TV.fr" tvg-name="|.AR.| MEDI 1 HD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/mdi1.png" group-title="ARABIC MAROC",|.AR.| MEDI 1 HD
 http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/63155.ts
-#EXTINF:-1 tvg-id="Assadissa.ma" tvg-name="|.AR.| ASSADISSA HD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/sadissa.png" group-title="ARABIC MAROC",|.AR.| ASSADISSA HD
-http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/30521.ts
 #EXTINF:-1 tvg-id="Arryadia.ma" tvg-name="|.AR.| ARRIADIA HD" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/arridia.png" group-title="ARABIC MAROC",|.AR.| ARRIADIA HD
 http://tv.tvprovip.com:25443/live/V19SvHp86N1Yv/1p1nYqm7Wk/30520.ts
 #EXTINF:-1 tvg-id="" tvg-name="|.AR.| AFLAM 7" tvg-logo="http://one-iptv.com/logoX/CHAINEARABIC/aflamtv.png" group-title="ARABIC MAROC",|.AR.| AFLAM 7
