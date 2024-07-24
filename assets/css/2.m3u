@@ -593,6 +593,8 @@ http://pro.tvxvip.com:25443/live/VELqyXqGR5D/nwhCmPzj21/51148.ts
 http://pro.tvxvip.com:25443/live/VELqyXqGR5D/nwhCmPzj21/51169.ts
 #EXTINF:-1 tvg-id="TF1SeriesFilms.fr" tvg-name="|FR| TF1 SERIES FILMS FHD" tvg-logo="http://one-iptv.com/imageslogo/TF1SeriesFilms.fr.png" group-title="FRANCE TNT",|FR| TF1 SERIES FILMS FHD
 http://pro.tvxvip.com:25443/live/VELqyXqGR5D/nwhCmPzj21/51172.ts
+#EXTINF:-1 tvg-id="France2.fr" tvg-name="|FR| FRANCE 2 SOURCE" tvg-logo="http://one-iptv.com/logoX/francetnt/France2.png" group-title="FRANCE TNT",|FR| FRANCE 2 SOURCE
+https://live-ssai-v2.ftven.fr/ZXhwPTE3MjE4MzcwMDJ+YWNsPSUyZip+aG1hYz0zMjI3OGFiZTgwMDM4NDhjZTc0ZjE0MWM2NWM4MTUzYjc4MWE4M2Y2YWQ2N2YxMmJjOWU2ODZkMDBiY2I4NjRj/dai/v1/master/c6f323e65336fbba9ea766d582216fd61ed74452/SSAIFrance2OTTEMTConfiguration/out/v1/3f5d86a548454a27ab9a06078aa68a03/index.m3u8?aws.sessionId=0c29d4e8-0f28-407d-a120-aa68737852f2&hdnea=exp=1721816002~acl=%2f*~hmac=fecdd61dee734c87170e636e0a74c6db8dc609fcaea5276e6874e051153d7a70
 #EXTINF:-1 tvg-id="France2.fr" tvg-name="|FR| FRANCE 2" tvg-logo="http://one-iptv.com/logoX/francetnt/France2.png" group-title="FRANCE TNT",|FR| FRANCE 2
 http://pro.tvxvip.com:25443/live/VELqyXqGR5D/nwhCmPzj21/9277.ts
 #EXTINF:-1 tvg-id="France2.fr" tvg-name="|FR.RP| FRANCE 2 HD" tvg-logo="http://one-iptv.com/logoX/francetnt/France2.png" group-title="FRANCE TNT",|FR.RP| FRANCE 2 HD
